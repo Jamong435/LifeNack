@@ -109,4 +109,10 @@ public class AlarmTimeViewActivity extends AppCompatActivity {
 
         return sideInversionImg;
     }
+
+    public void clickbtn(View view) {
+
+        Intent intent1 = new Intent(this,MainActivity.class);
+        startActivity(intent1);
+    }
 }

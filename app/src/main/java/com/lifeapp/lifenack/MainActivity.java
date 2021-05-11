@@ -130,4 +130,8 @@ public class MainActivity extends AppCompatActivity {
         alarmManager.cancel(pIntent);
     }// unregist()..
 
+    public void clickbtn2(View view) {
+        Intent intent = new Intent(this,AlarmTimeViewActivity.class);
+        startActivity(intent);
+    }
 }// MainActivity class..
