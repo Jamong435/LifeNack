@@ -47,7 +47,7 @@
         android:text="일요일"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cb_mon"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="170dp"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -59,7 +59,7 @@
         android:text="월요일"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cb_tue"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="170dp"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/cb_sun"
         tools:ignore="MissingConstraints" />
@@ -72,7 +72,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cb_wed"
         app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="170dp"
         app:layout_constraintStart_toEndOf="@+id/cb_mon"
         tools:ignore="MissingConstraints" />
 
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:text="수요일"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="170dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/cb_tue"
@@ -96,7 +96,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cb_fri"
         app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="120dp"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -108,7 +108,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cb_sat"
         app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="120dp"
         app:layout_constraintStart_toEndOf="@+id/cb_thu"
         tools:ignore="MissingConstraints" />
 
@@ -120,17 +120,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="120dp"
         app:layout_constraintStart_toEndOf="@+id/cb_fri"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
