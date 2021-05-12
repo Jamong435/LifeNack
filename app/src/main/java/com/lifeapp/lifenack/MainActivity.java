@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         if(cbSun.isChecked() || cbMon.isChecked() ||  cbTue.isChecked() || cbWed.isChecked() ||  cbThu.isChecked() || cbFri.isChecked() || cbSat.isChecked()){
-            Toast.makeText(this, "설정되었습니다.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "시간설정하였습니다.", Toast.LENGTH_SHORT).show();
 
         }
 
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
     }// regist()..
 
     public void unregist(View view) {
-        Toast.makeText(this, "해지되었습니다.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "시간해지되었습니다.", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, Alarm.class);
         PendingIntent pIntent = PendingIntent.getBroadcast(this, 0, intent, 0);
         alarmManager.cancel(pIntent);
