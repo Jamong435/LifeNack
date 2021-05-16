@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         adView.setAdSize(AdSize.BANNER);
 
-        adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+        adView.setAdUnitId("ca-app-pub-3032504580461279/2028303247");
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
